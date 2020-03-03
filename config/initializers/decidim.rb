@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "My Application Name"
-  config.mailer_sender = "change-me@domain.org"
+  config.application_name = "Visc"
+  config.mailer_sender = "visc@govern.ad"
+  config.maximum_attachment_size = 5.megabytes
 
   # Change these lines to set your preferred locales
   config.default_locale = :en
@@ -126,3 +127,7 @@ end
 
 Rails.application.config.i18n.available_locales = Decidim.available_locales
 Rails.application.config.i18n.default_locale = Decidim.default_locale
+
+Decidim::Verifications.register_workflow(:census_authorization_handler) do |auth|
+  auth.form = "CensusAuthorizationHandler"
+end

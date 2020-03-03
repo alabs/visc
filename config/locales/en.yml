@@ -31,3 +31,8 @@
 
 en:
   hello: "Hello world"
+  decidim:
+    authorization_handlers:
+      census_authorization_handler:
+        explanation: Verify with the census
+        name: The census
