@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
     actioncable (5.2.4.1)
       actionpack (= 5.2.4.1)
       nio4r (~> 2.0)
@@ -21,27 +20,6 @@ GEM
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
     actionview (5.2.4.1)
       activesupport (= 5.2.4.1)
-=======
-    actioncable (5.2.3)
-      actionpack (= 5.2.3)
-      nio4r (~> 2.0)
-      websocket-driver (>= 0.6.1)
-    actionmailer (5.2.3)
-      actionpack (= 5.2.3)
-      actionview (= 5.2.3)
-      activejob (= 5.2.3)
-      mail (~> 2.5, >= 2.5.4)
-      rails-dom-testing (~> 2.0)
-    actionpack (5.2.3)
-      actionview (= 5.2.3)
-      activesupport (= 5.2.3)
-      rack (~> 2.0)
-      rack-test (>= 0.6.3)
-      rails-dom-testing (~> 2.0)
-      rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (5.2.3)
-      activesupport (= 5.2.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
@@ -49,7 +27,6 @@ GEM
     active_link_to (1.0.5)
       actionpack
       addressable
-<<<<<<< HEAD
     activejob (5.2.4.1)
       activesupport (= 5.2.4.1)
       globalid (>= 0.3.6)
@@ -64,35 +41,14 @@ GEM
       activerecord (= 5.2.4.1)
       marcel (~> 0.3.1)
     activesupport (5.2.4.1)
-=======
-    activejob (5.2.3)
-      activesupport (= 5.2.3)
-      globalid (>= 0.3.6)
-    activemodel (5.2.3)
-      activesupport (= 5.2.3)
-    activerecord (5.2.3)
-      activemodel (= 5.2.3)
-      activesupport (= 5.2.3)
-      arel (>= 9.0)
-    activestorage (5.2.3)
-      actionpack (= 5.2.3)
-      activerecord (= 5.2.3)
-      marcel (~> 0.3.1)
-    activesupport (5.2.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     acts_as_list (0.9.19)
       activerecord (>= 3.0)
-<<<<<<< HEAD
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-=======
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     anchored (1.1.0)
     arel (9.0.0)
     ast (2.4.0)
@@ -116,19 +72,11 @@ GEM
       html_tokenizer (~> 0.0.6)
       parser (>= 2.4)
       smart_properties
-<<<<<<< HEAD
     bindex (0.8.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.1)
-=======
-    bindex (0.7.0)
-    bootsnap (1.4.4)
-      msgpack (~> 1.0)
-    builder (3.2.3)
-    byebug (11.0.1)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     capybara (3.31.0)
       addressable
       mini_mime (>= 0.1.3)
@@ -163,22 +111,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-<<<<<<< HEAD
     concurrent-ruby (1.1.6)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
-=======
-    concurrent-ruby (1.1.5)
-    crack (0.4.3)
-      safe_yaml (~> 1.0.0)
-    crass (1.0.5)
-    css_parser (1.7.1)
-      addressable
     daemons (1.3.1)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     date_validator (0.9.0)
       activemodel
       activesupport
@@ -375,14 +314,11 @@ GEM
     declarative-builder (0.1.0)
       declarative-option (< 0.2.0)
     declarative-option (0.1.0)
-<<<<<<< HEAD
-=======
     delayed_job (4.1.8)
       activesupport (>= 3.0, < 6.1)
     delayed_job_active_record (4.1.4)
       activerecord (>= 3.0, < 6.1)
       delayed_job (>= 3.0, < 5)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     devise (4.7.1)
@@ -417,11 +353,7 @@ GEM
       smart_properties
     erbse (0.1.4)
       temple
-<<<<<<< HEAD
     erubi (1.9.0)
-=======
-    erubi (1.8.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     etherpad-lite (0.3.0)
       rest-client (>= 1.6)
     execjs (2.7.0)
@@ -430,20 +362,13 @@ GEM
     factory_bot_rails (4.11.1)
       factory_bot (~> 4.11.1)
       railties (>= 3.0.0)
-<<<<<<< HEAD
     faker (1.9.6)
-=======
-    faker (1.9.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       i18n (>= 0.7)
     faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
-<<<<<<< HEAD
-=======
     figaro (1.1.1)
       thor (~> 0.14)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     file_validators (2.3.0)
       activemodel (>= 3.2)
       mime-types (>= 1.0)
@@ -463,14 +388,9 @@ GEM
     graphiql-rails (1.4.11)
       railties
       sprockets-rails
-    graphql (1.10.3)
-<<<<<<< HEAD
+    graphql (1.10.4)
     hashdiff (1.0.1)
     hashie (4.1.0)
-=======
-    hashdiff (1.0.0)
-    hashie (3.6.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     highline (2.0.3)
     html_tokenizer (0.0.7)
     htmlentities (4.3.4)
@@ -480,13 +400,9 @@ GEM
     httparty (0.18.0)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
-<<<<<<< HEAD
     i18n (1.8.2)
-=======
-    i18n (1.6.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       concurrent-ruby (~> 1.0)
-    i18n-tasks (0.9.30)
+    i18n-tasks (0.9.31)
       activesupport (>= 4.0.2)
       ast (>= 2.1.0)
       erubi
@@ -523,7 +439,6 @@ GEM
       kaminari-core (= 1.2.0)
     kaminari-core (1.2.0)
     kramdown (1.17.0)
-<<<<<<< HEAD
     launchy (2.5.0)
       addressable (~> 2.7)
     letter_opener (1.7.0)
@@ -535,20 +450,6 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-=======
-    launchy (2.4.3)
-      addressable (~> 2.3)
-    letter_opener (1.7.0)
-      launchy (~> 2.2)
-    letter_opener_web (1.3.4)
-      actionmailer (>= 3.2)
-      letter_opener (~> 1.0)
-      railties (>= 3.2)
-    listen (3.1.5)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-      ruby_dep (~> 1.2)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -566,7 +467,6 @@ GEM
     mime-types-data (3.2019.1009)
     mimemagic (0.3.4)
     mini_magick (4.10.1)
-<<<<<<< HEAD
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
@@ -574,15 +474,6 @@ GEM
     mixlib-config (2.2.18)
       tomlrb
     msgpack (1.3.3)
-=======
-    mini_mime (1.0.1)
-    mini_portile2 (2.4.0)
-    minitest (5.11.3)
-    mixlib-cli (1.7.0)
-    mixlib-config (2.2.18)
-      tomlrb
-    msgpack (1.2.10)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     multi_json (1.14.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
@@ -590,11 +481,7 @@ GEM
     netrc (0.11.0)
     nio4r (2.5.2)
     nobspw (0.6.1)
-<<<<<<< HEAD
     nokogiri (1.10.9)
-=======
-    nokogiri (1.10.5)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       mini_portile2 (~> 2.4.0)
     oauth (0.5.4)
     oauth2 (1.4.4)
@@ -603,13 +490,8 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
-<<<<<<< HEAD
     omniauth (1.9.1)
       hashie (>= 3.4.6)
-=======
-    omniauth (1.9.0)
-      hashie (>= 3.4.6, < 3.7.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       rack (>= 1.6.2, < 3)
     omniauth-facebook (5.0.0)
       omniauth-oauth2 (~> 1.2)
@@ -634,16 +516,11 @@ GEM
       activerecord (>= 4.2)
       request_store (~> 1.1)
     parallel (1.19.1)
-<<<<<<< HEAD
     parser (2.7.0.4)
-      ast (~> 2.4.0)
-=======
-    parser (2.7.0.3)
       ast (~> 2.4.0)
     passenger (6.0.4)
       rack
       rake (>= 0.8.1)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     pg (1.1.4)
     pg_search (2.3.2)
       activerecord (>= 5.2)
@@ -655,22 +532,15 @@ GEM
     premailer-rails (1.10.3)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-<<<<<<< HEAD
     public_suffix (4.0.3)
     puma (3.12.4)
     rack (2.2.2)
-=======
-    public_suffix (3.1.0)
-    puma (3.12.2)
-    rack (2.0.7)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     rack-attack (6.2.2)
       rack (>= 1.0, < 3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-<<<<<<< HEAD
     rails (5.2.4.1)
       actioncable (= 5.2.4.1)
       actionmailer (= 5.2.4.1)
@@ -683,20 +553,6 @@ GEM
       activesupport (= 5.2.4.1)
       bundler (>= 1.3.0)
       railties (= 5.2.4.1)
-=======
-    rails (5.2.3)
-      actioncable (= 5.2.3)
-      actionmailer (= 5.2.3)
-      actionpack (= 5.2.3)
-      actionview (= 5.2.3)
-      activejob (= 5.2.3)
-      activemodel (= 5.2.3)
-      activerecord (= 5.2.3)
-      activestorage (= 5.2.3)
-      activesupport (= 5.2.3)
-      bundler (>= 1.3.0)
-      railties (= 5.2.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       sprockets-rails (>= 2.0.0)
     rails-controller-testing (1.0.4)
       actionpack (>= 5.0.1.x)
@@ -705,7 +561,6 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-<<<<<<< HEAD
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
     rails-i18n (5.1.3)
@@ -714,36 +569,18 @@ GEM
     railties (5.2.4.1)
       actionpack (= 5.2.4.1)
       activesupport (= 5.2.4.1)
-=======
-    rails-html-sanitizer (1.2.0)
-      loofah (~> 2.2, >= 2.2.2)
-    rails-i18n (5.1.3)
-      i18n (>= 0.7, < 2)
-      railties (>= 5.0, < 6)
-    railties (5.2.3)
-      actionpack (= 5.2.3)
-      activesupport (= 5.2.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
     rainbow (3.0.0)
-<<<<<<< HEAD
     rake (13.0.1)
-=======
-    rake (13.0.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     ransack (2.1.1)
       actionpack (>= 5.0)
       activerecord (>= 5.0)
       activesupport (>= 5.0)
       i18n
     rb-fsevent (0.10.3)
-<<<<<<< HEAD
     rb-inotify (0.10.1)
-=======
-    rb-inotify (0.10.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       ffi (~> 1.0)
     rectify (0.13.0)
       activemodel (>= 4.1.0)
@@ -782,7 +619,7 @@ GEM
     rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-rails (3.9.0)
+    rspec-rails (3.9.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -807,10 +644,6 @@ GEM
       rubocop (>= 0.68.1)
     ruby-ole (1.2.12.2)
     ruby-progressbar (1.10.1)
-<<<<<<< HEAD
-=======
-    ruby_dep (1.5.0)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     rubyzip (2.0.0)
     safe_yaml (1.0.5)
     sass (3.4.25)
@@ -857,28 +690,17 @@ GEM
     temple (0.8.2)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-<<<<<<< HEAD
-    thor (1.0.1)
-=======
     thor (0.20.3)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     thread_safe (0.3.6)
     tilt (2.0.10)
     tomlrb (1.2.9)
     truncato (0.7.11)
       htmlentities (~> 4.3.1)
       nokogiri (>= 1.7.0, <= 2.0)
-<<<<<<< HEAD
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     uber (0.1.0)
     uglifier (4.2.0)
-=======
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
-    uber (0.1.0)
-    uglifier (4.1.20)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
@@ -892,11 +714,8 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
-<<<<<<< HEAD
     virtus-multiparams (0.1.1)
       virtus (~> 1.0)
-=======
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (3.7.0)
@@ -922,18 +741,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (~> 1.3)
   byebug (~> 11.0)
-<<<<<<< HEAD
-  decidim (= 0.20.0)
-  decidim-dev (= 0.20.0)
-  faker (~> 1.9)
-  letter_opener_web (~> 1.3)
-  listen (~> 3.1)
-  puma (~> 3.12.3)
-  spring (~> 2.0)
-  spring-watcher-listen (~> 2.0)
-  uglifier (~> 4.1)
-  virtus-multiparams
-=======
   daemons
   decidim (= 0.20.0)
   decidim-dev (= 0.20.0)
@@ -947,11 +754,11 @@ DEPENDENCIES
   spring (~> 2.0)
   spring-watcher-listen (~> 2.0)
   uglifier (~> 4.1)
->>>>>>> d7e97c6c85de29b3b523e99eceec6df225a14e5d
+  virtus-multiparams
   web-console (~> 3.5)
 
 RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.3
+   1.17.2
