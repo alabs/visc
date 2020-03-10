@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "Visc"
-  config.mailer_sender = "visc@govern.ad"
-  config.maximum_attachment_size = 5.megabytes
+  config.application_name = "pre.visc.ad"
+  config.mailer_sender = Rails.application.secrets.email
 
   # Change these lines to set your preferred locales
   config.default_locale = :en
