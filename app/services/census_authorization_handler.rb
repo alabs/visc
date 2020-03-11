@@ -20,7 +20,7 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
   # validates :document_type, inclusion: { in: %i(dni nie passport) }, presence: true
   # validates :date_of_birth, presence: true
 
-  validate :document_type_valid
+  # validate :document_type_valid
   # validate :over_14
 
   # If you need to store any of the defined attributes in the authorization you
