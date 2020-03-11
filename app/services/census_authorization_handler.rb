@@ -68,7 +68,7 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
   def document_type_valid
     return nil if response.blank?
 
-    errors.add(:document_number, I18n.t("census_authorization_handler.invalid_document")) unless response.xpath("//codiRetorn").text == "KO"
+    errors.add(:document_number, I18n.t("census_authorization_handler.invalid_document")) unless response.xpath("//codiRetorn").text == "OK"
   end
 
   def response
