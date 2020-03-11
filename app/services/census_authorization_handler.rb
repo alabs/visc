@@ -30,9 +30,9 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
   # it's created, and available though authorization.metadata
   def metadata
     super.merge(
-      date_of_birth: date_of_birth,
-      gender: gender,
-      postal_code: postal_code
+      # date_of_birth: date_of_birth,
+      # gender: gender,
+      # postal_code: postal_code
     )
   end
 
