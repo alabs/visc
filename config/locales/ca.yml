@@ -238,11 +238,21 @@ ca:
         one: comentari
         other: comentaris
     authorization_handlers:
+      census_authorization_handler:
+        explanation: Verifica't amb el padró
+        fields:
+          date_of_birth: Data de naixement
+          document_number: Número de document
+          document_type: Tipus de document
+          postal_code: Codi postal
+          scope: Districte
+        name: El padró
       another_dummy_authorization_handler:
         explanation: Verifica't introduint un número de passaport que comenci per "A"
         fields:
           passport_number: Número de passaport
         name: Una altra autorització d'exemple
+      name: El padró
       dummy_authorization_handler:
         explanation: Verifica't introduint un número de document que finalitzi amb "X"
         fields:
