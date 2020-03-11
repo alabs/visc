@@ -3,7 +3,6 @@ ca:
     attributes:
       census_authorization_handler:
         document_number: Número de cens (sense l'última lletra)
-        invalid_document: Número de cens incorrecte
       account:
         delete_reason: Raó per eliminar el teu compte
       group:
@@ -36,6 +35,8 @@ ca:
       decidim/profile_updated_event: Perfil actualitzat
       decidim/promote_to_admin: Promocionada a administradora del grup
       decidim/removed_from_group: Eliminada del grup
+  census_authorization_handler:
+    invalid_document: Número de cens incorrecte
   activerecord:
     attributes:
       decidim/user:
@@ -243,7 +244,6 @@ ca:
         explanation: Verifica amb Cens
         fields:
           document_number: Número de cens (sense l'última lletra)
-        invalid_document: Número de cens incorrecte
           scope: Districte
         name: El Cens
       another_dummy_authorization_handler:
