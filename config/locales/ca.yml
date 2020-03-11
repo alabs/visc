@@ -2,7 +2,7 @@ ca:
   activemodel:
     attributes:
       census_authorization_handler:
-        document_number: Número de document
+        document_number: Número de cens
       account:
         delete_reason: Raó per eliminar el teu compte
       group:
@@ -239,12 +239,9 @@ ca:
         other: comentaris
     authorization_handlers:
       census_authorization_handler:
-        explanation: Verifica't amb el padró
+        explanation: Verifica amb Cens
         fields:
-          date_of_birth: Data de naixement
-          document_number: Número de document
-          document_type: Tipus de document
-          postal_code: Codi postal
+          document_number: Número de cens
           scope: Districte
         name: El padró
       another_dummy_authorization_handler:
