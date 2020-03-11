@@ -1,6 +1,8 @@
 ca:
   activemodel:
     attributes:
+      census_authorization_handler:
+        document_number: Número de document
       account:
         delete_reason: Raó per eliminar el teu compte
       group:
