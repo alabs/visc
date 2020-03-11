@@ -243,7 +243,7 @@ ca:
         explanation: Verifica amb Cens
         fields:
           document_number: Número de cens (sense l'última lletra)
-          invalid_document: Número de cens incorrecte
+        invalid_document: Número de cens incorrecte
           scope: Districte
         name: El Cens
       another_dummy_authorization_handler:
