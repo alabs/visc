@@ -72,10 +72,10 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
   end
 
   def response
-    return nil if document_number.blank? ||
-                  document_type.blank? ||
-                  postal_code.blank? ||
-                  date_of_birth.blank?
+    return nil if document_number.blank? # ||
+                  # document_type.blank? ||
+                  # postal_code.blank? ||
+                  # date_of_birth.blank?
 
     return @response if defined?(@response)
 
