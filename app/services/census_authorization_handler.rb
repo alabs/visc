@@ -12,12 +12,12 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
 
   attribute :document_number, String
   # attribute :postal_code, String
-  attribute :document_type, Symbol
+  # attribute :document_type, Symbol
   # attribute :date_of_birth, Date
 
   validates :document_number, format: { with: /\A[A-z0-9]*\z/ }, presence: true
   # validates :postal_code, presence: true, format: { with: /\A[0-9]*\z/ }
-  validates :document_type, inclusion: { in: %i(dni nie passport) }, presence: true
+  # validates :document_type, inclusion: { in: %i(dni nie passport) }, presence: true
   # validates :date_of_birth, presence: true
 
   validate :document_type_valid
