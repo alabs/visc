@@ -96,7 +96,7 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
     hour = Time.now.strftime("%H%M%S")
     private_key = "qwertyasdf0123456789"
 
-    key2 = Digest::SHA1.hexdigest("#{key_id}#{private_key}").upcase
+    key2 = Digest::SHA1.hexdigest("#{key}#{private_key}").upcase
     signature = Digest::SHA1.hexdigest("#{data}#{hour}#{domain}#{identity}#{key2}#{private_key}").upcase
 
     @request_body ||= <<EOS
