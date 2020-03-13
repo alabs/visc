@@ -109,7 +109,7 @@ class CensusAuthorizationHandler < Decidim::AuthorizationHandler
             <soap:numscens>#{sanitize document_number&.upcase}</soap:numscens>
          </soap:numscens>
          <soap:IDENTIFICACIO>
-            <soap:clauID>#{key}</soap:clauID>
+            <soap:clauID>#{key2}</soap:clauID>
             <soap:dataID>#{data}</soap:dataID>
             <soap:horaID>#{hour}</soap:horaID>
             <soap:identitatID>#{identity}</soap:identitatID>
